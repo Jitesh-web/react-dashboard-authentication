@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.custom-height {
+  height: calc(100vh - 64px); /* Example of using calc() */
+}
